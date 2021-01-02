@@ -8,6 +8,12 @@ Author: Andy Pearson
 Author URI: https://londonparkour.com
 */
 
+//  ┌─────────────────────────────────────────────────────────────────────────┐
+//  │                    Register with ANDYP Plugins                          │
+//  └─────────────────────────────────────────────────────────────────────────┘
+require __DIR__.'/src/acf/andyp_plugin_register.php';
+
+
 function andyp_additional_admin_color_schemes() {
 
 
