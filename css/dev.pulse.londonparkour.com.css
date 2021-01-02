@@ -16,6 +16,15 @@
     color: #E86546;
   }
   
+  /** 
+  * Custom SVG Data URI Menu Icons
+  * Use filter() to change them
+  * see: https://codepen.io/sosuke/pen/Pjoqqp
+  */
+  #adminmenu div.wp-menu-image.svg {
+    filter: invert(51%) sepia(91%) saturate(2407%) hue-rotate(335deg) brightness(97%) contrast(86%);
+  }
+
   #post-body .misc-pub-post-status:before,
   #post-body #visibility:before,
   .curtime #timestamp:before,

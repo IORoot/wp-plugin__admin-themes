@@ -15,6 +15,15 @@
   a:hover, a:active, a:focus {
     color: #53A5E3;
   }
+
+  /** 
+  * Custom SVG Data URI Menu Icons
+  * Use filter() to change them
+  * see: https://codepen.io/sosuke/pen/Pjoqqp
+  */
+  #adminmenu div.wp-menu-image.svg {
+    filter: invert(57%) sepia(62%) saturate(540%) hue-rotate(170deg) brightness(96%) contrast(84%);
+  }
   
   #post-body .misc-pub-post-status:before,
   #post-body #visibility:before,
