@@ -24,7 +24,16 @@
   #adminmenu div.wp-menu-image.svg {
     filter: invert(57%) sepia(62%) saturate(540%) hue-rotate(170deg) brightness(96%) contrast(84%);
   }
-  
+
+  /**
+  * Make the admin menu items fullwidth.
+  * (why they are 380px width max?!?)
+  */
+  .menu-item-settings,
+  .menu-item-bar .menu-item-handle {
+    max-width: inherit !important;
+  }
+
   #post-body .misc-pub-post-status:before,
   #post-body #visibility:before,
   .curtime #timestamp:before,

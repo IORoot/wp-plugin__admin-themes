@@ -25,6 +25,15 @@
     filter: invert(51%) sepia(91%) saturate(2407%) hue-rotate(335deg) brightness(97%) contrast(86%);
   }
 
+  /**
+  * Make the admin menu items fullwidth.
+  * (why they are 380px width max?!?)
+  */
+  .menu-item-settings,
+  .menu-item-bar .menu-item-handle {
+    max-width: inherit !important;
+  }
+
   #post-body .misc-pub-post-status:before,
   #post-body #visibility:before,
   .curtime #timestamp:before,
