@@ -3,8 +3,8 @@
  * Button mixin- creates a button effect with correct
  * highlights/shadows, based on a base color.
  */
- body {
-    background: #f1f1f1;
+  body {
+      background: #f1f1f1;
   }
   
   /* Links */
@@ -33,6 +33,8 @@
   .menu-item-bar .menu-item-handle {
     max-width: inherit !important;
   }
+
+  form#edittag { max-width: unset !important; }
 
   #post-body .misc-pub-post-status:before,
   #post-body #visibility:before,
