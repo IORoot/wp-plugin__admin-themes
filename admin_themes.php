@@ -13,6 +13,8 @@ Author URI: https://londonparkour.com
 //  └─────────────────────────────────────────────────────────────────────────┘
 require __DIR__.'/src/acf/andyp_plugin_register.php';
 
+require __DIR__.'/src/remove_comments_menu.php';
+
 
 function andyp_additional_admin_color_schemes() {
 
@@ -21,7 +23,7 @@ function andyp_additional_admin_color_schemes() {
         'dev', 
         __( 'dev.londonparkour.com' ),
         plugins_url( '/', __FILE__ ) . '/css/dev.londonparkour.com.css' ,
-        [ '#242424', '#53A5E3', '#E86546' ],
+        [ '#242424', '#53A5E3', '#E86546' ]
     );
 
 
@@ -29,7 +31,7 @@ function andyp_additional_admin_color_schemes() {
         'pulse', 
         __( 'dev.pulse.londonparkour.com' ),
         plugins_url( '/', __FILE__ ) . '/css/dev.pulse.londonparkour.com.css' ,
-        [ '#242424', '#E86546', '#FAFAFA' ],
+        [ '#242424', '#E86546', '#FAFAFA' ]
     );
 
 
@@ -37,7 +39,7 @@ function andyp_additional_admin_color_schemes() {
         'labs', 
         __( 'dev.labs.londonparkour.com' ),
         plugins_url( '/', __FILE__ ) . '/css/dev.labs.londonparkour.com.css' ,
-        [ '#242424', '#38EF7D', '#ffffff' ],
+        [ '#242424', '#38EF7D', '#ffffff' ]
     );
 
 }
